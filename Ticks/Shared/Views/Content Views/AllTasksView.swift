@@ -43,7 +43,8 @@ struct AllTasksView: View {
 		}
 		.toolbar {
 #if os(macOS)
-			ToolbarItem(placement: .status) {
+            ToolbarItem(placement: .primaryActionv
+            ) {
 				Button {
 					navigationModel.showingNewTaskField = true
 				} label: {
